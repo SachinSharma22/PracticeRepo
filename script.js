@@ -96,5 +96,20 @@ console.log(finalThirdAns);
 // console.log(obj.age);
 // obj.greet();
 
+let arr = [
+    function(a,b){
+        return a ** b;
+    },
+    function(a,b){
+        return a / b;
+    },
+    function(a,b){
+        return a == b;
+    }
+];
+
+let ans = arr[0];
+let finalAns = ans(2,10);
+console.log(finalAns);
 
 
